@@ -1,1 +1,3 @@
 remote_theme: daviddarnes/alembic
+plugins:
+  - jekyll-feed
