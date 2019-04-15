@@ -1,4 +1,6 @@
-# Bayesci İstatistiğe Giriş
+---
+title: Bayesci İstatistiğe Giriş
+---
 
 ## İçindekiler
 1. [__Bayes Teoremi__](01-BayesTheorem.md)
