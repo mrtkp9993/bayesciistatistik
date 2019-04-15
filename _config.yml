@@ -1,3 +1,5 @@
 remote_theme: daviddarnes/alembic
 plugins:
   - jekyll-feed
+titles_from_headings:
+  strip_title: true
