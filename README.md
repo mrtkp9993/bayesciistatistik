@@ -4,7 +4,7 @@
 
 
 
-## Kitaplar & Kaynaklar
+## Kitaplar
 
 - Sumio Watanabe, Mathematical Theory of Bayesian Statistics, CRC Press, 2018 
 - Andrew Gelman et al., Bayesian Data Analysis Third Edition, CRC Press, 2014
