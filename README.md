@@ -2,7 +2,9 @@
 
 ## Motivasyon
 
+Son yıllarda kişisel bilgisayaların işlem güçlerinin artmasıyla, bir çok karmaşık hesaplama kolaylıkla herkes tarafından yapılabilir hale geldi. Uzun hesaplamalar gerektiren Derin Öğrenme (Deep Learning) modellerinin oluşturulması bile masaüstü bilgisayarlardaki ekran kartları (GPU) ile yapılabilir oldu. Elimizdeki işlem gücünün artması, frekanscı istastikte _p-hacking hilesinin_ daha fazla konuşulur olması, _replication crisis_ denilen, gerçekleştirilen çoğu bilimsel deneyin sonuçlarının tekrarlanabilir olmaması sorunları Bayesci istatistiği daha çok konuşulur hale getirdi.
 
+Bu konuda Türkçe kaynak sıkıntısı bulunması nedeniyle de edindiğim bilgileri derleyip sunmaya karar verdim. 
 
 ## Kitaplar
 
@@ -24,3 +26,8 @@
 - Andrew Gelman, Jennifer Hill, Data Analysis Using Regression and Multilevel/Hierarchical Models, Cambridge University Press, 2007
 - Cameron Davidson-Pilon, Bayesian Methods for Hackers, Addison-Wesley, 2016
 - Ton J. Cleophas, Aeilko H. Zwinderman, Modern Bayesian Statistics in Clinical Research, Springer, 2018
+
+## Diğer Kaynaklar
+
+- https://www.wikiwand.com/en/Replication_crisis
+- https://freakonometrics.hypotheses.org/19817
