@@ -1,8 +1,8 @@
-## İçindekiler
+# İçindekiler
 1. [__Bayes Teoremi__](01-BayesTheorem.md)
 2. [__Frekansçı ve Bayesci Yaklaşımın Farkları__](02-FrequentistVsBayesian.md)
 
-## Motivasyon
+# Motivasyon
 
 Son yıllarda kişisel bilgisayaların işlem güçlerinin artmasıyla, bir çok karmaşık hesaplama kolaylıkla herkes tarafından yapılabilir hale geldi. Uzun hesaplamalar gerektiren Derin Öğrenme (Deep Learning) modellerinin oluşturulması bile masaüstü bilgisayarlardaki ekran kartları (GPU) ile yapılabilir oldu. Elimizdeki işlem gücünün artması, frekanscı istastikte _p-hacking hilesinin_ daha fazla konuşulur olması, _replication crisis_ denilen, gerçekleştirilen çoğu bilimsel deneyin sonuçlarının tekrarlanabilir olmaması sorunları Bayesci istatistiği daha çok konuşulur hale getirdi.
 
@@ -10,7 +10,7 @@ Bu konuda Türkçe kaynak sıkıntısı bulunması nedeniyle de şimdiye kadar e
 
 Faydalı bir kaynak olması dileğiyle.
 
-## Kitaplar
+# Kitaplar
 
 - Sumio Watanabe, Mathematical Theory of Bayesian Statistics, CRC Press, 2018 
 - Andrew Gelman et al., Bayesian Data Analysis Third Edition, CRC Press, 2014
