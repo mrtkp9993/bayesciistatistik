@@ -1,4 +1,4 @@
-# İçindekiler
+# Bayesci İstatistiğe Giriş
 1. [__Bayes Teoremi__](01-BayesTheorem.md)
 2. [__Frekansçı ve Bayesci Yaklaşımın Farkları__](02-FrequentistVsBayesian.md)
 
@@ -31,7 +31,7 @@ Faydalı bir kaynak olması dileğiyle.
 - Cameron Davidson-Pilon, Bayesian Methods for Hackers, Addison-Wesley, 2016
 - Ton J. Cleophas, Aeilko H. Zwinderman, Modern Bayesian Statistics in Clinical Research, Springer, 2018
 
-## Diğer Kaynaklar
+# Diğer Kaynaklar
 
 - https://www.wikiwand.com/en/Replication_crisis
 - https://freakonometrics.hypotheses.org/19817
