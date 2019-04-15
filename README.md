@@ -1,8 +1,8 @@
 # Bayesci İstatistiğe Giriş
 
 ## İçindekiler
-[__Bayes Teoremi__](01-BayesTheorem.md)
-[__Frekansçı ve Bayesci Yaklaşımın Farkları__](02-FrequentistVsBayesian.md)
+1. [__Bayes Teoremi__](01-BayesTheorem.md)
+2. [__Frekansçı ve Bayesci Yaklaşımın Farkları__](02-FrequentistVsBayesian.md)
 
 ## Motivasyon
 
