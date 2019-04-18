@@ -7,3 +7,16 @@ title: Bayes Teoremi
 ![0209](imgs/02_09.svg)
 
 dir. Yani, eğer her bir ![0210](imgs/02_10.svg) olayının olasılığını ve ![0211](imgs/02_11.svg) koşullu olasılığını biliyorsak ![0212](imgs/02_12.svg) olasılıklarını hesaplayabiliriz.
+
+**Örnek 1.** Bir tıbbi testin %1 yalancı pozitif oranına (birey sağlıklı iken hasta sonucu verme) ve %1 yalancı negatif oranına (birey hasta iken sağlıklı sonucu verme) sahip olduğunu varsayalım. Hastalığın karşılaşılma oranı da 0.002 olsun. Rasgele seçilen bir bireyde test pozitif sonuç verdiyse, bireyin gerçekten hasta olma olasılığı nedir?
+
+Hipotezimizi ve verimizi aşağıdaki gibi tanımlayalım:
+
+* Hipotez: _H: "Birey hastadır."_
+* Veri: _D: "Test sonucu pozitiftir."_ 
+
+Böylece, 
+
+![0213](imgs/02_13.svg)
+
+bulunur.
