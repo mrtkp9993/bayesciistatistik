@@ -21,7 +21,7 @@ Burada:
 * ![0216](imgs/02_16.svg), tüm hipotezler gözönüne alındığında verinin olasılığı (**evidence**),
 * ![0217](imgs/02_17.svg), veri gözlemlendikten sonra hipotezin doğru olma olasılığıdır (**posterior, sonsal olasılık**).
 
-Paydadaki ifade çoğu zaman doğrudan hesaplanamaz. Bu nedenle paydayı gözardı edersek,
+Paydadaki ifade sabit bir sayıdır ancak çoğu zaman doğrudan hesaplanamaz. Bu nedenle paydayı gözardı edersek,
 
 ![0219](imgs/02_19.svg).
 
