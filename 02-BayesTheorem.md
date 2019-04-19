@@ -17,7 +17,7 @@ _H_ hipotez ve _D_ veri olmak üzere:
 Burada:
 
 * ![0215](imgs/02_15.svg), veriyi görmeden önce hipotezimizin doğru olma olasılığı (**prior, önsel olasılık**),
-* ![0218](imgs/02_18.svg), hipotez doğru ise veriyi gözlemleme olasılığımız (**likelihood, benzerlik**),
+* ![0218](imgs/02_18.svg), hipotez doğru ise veriyi gözlemleme olasılığımız (**likelihood, olabilirlik**),
 * ![0216](imgs/02_16.svg), tüm hipotezler gözönüne alındığında verinin olasılığı (**evidence**),
 * ![0217](imgs/02_17.svg), veri gözlemlendikten sonra hipotezin doğru olma olasılığıdır (**posterior, sonsal olasılık**).
 
