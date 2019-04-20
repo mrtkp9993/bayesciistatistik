@@ -33,17 +33,17 @@ Bayesci bakış açısına göre:
 Bob'un 3 kere üst üste kazanma şansını hesaplayacağız.
 
 
-1. Frekanscı yaklaşım
+* Frekanscı yaklaşım
 
-   İşaretin konumu için bir tahmin yapmamız gerekir. İşaretin konumunu Alice'in lehine sonuçlanan atış sayısı ![0301](imgs/03_01.svg) ile belirlersek, ![0301](imgs/03_01.svg) parametresinin maksimum olabilirlik tahmini
+  İşaretin konumu için bir tahmin yapmamız gerekir. İşaretin konumunu Alice'in lehine sonuçlanan atış sayısı ![0301](imgs/03_01.svg) ile belirlersek, ![0301](imgs/03_01.svg) parametresinin maksimum olabilirlik tahmini
 
 ![0302](imgs/03_02.svg)
 
-   olur. Bunu ve binom dağılımını kullanırsak (Binom dağılımı, başarı olasılığı p, başarısızlık olasılığı 1-p olmak üzere, N denemede n tane başarı elde etme olasılığını verir),
+  olur. Bunu ve binom dağılımını kullanırsak (Binom dağılımı, başarı olasılığı p, başarısızlık olasılığı 1-p olmak üzere, N denemede n tane başarı elde etme olasılığını verir),
 
 ![0303](imgs/03_03.svg)
 
-   olarak bulunur. Yani Bob'un bu oyunda kazanma olasılığı %5'dir.
+  olarak bulunur. Yani Bob'un bu oyunda kazanma olasılığı %5'dir.
 
 2. Bayesci yaklaşım
 
