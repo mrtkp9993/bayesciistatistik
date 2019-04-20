@@ -45,7 +45,7 @@ Bob'un 3 kere üst üste kazanma şansını hesaplayacağız.
 
   olarak bulunur. Yani Bob'un bu oyunda kazanma olasılığı %5'dir.
 
-2. Bayesci yaklaşım
+* Bayesci yaklaşım
 
 # Kaynaklar
 
