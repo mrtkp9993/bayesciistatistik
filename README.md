@@ -3,7 +3,7 @@
 1. [__Temel Kavramlar__](01-Fundamentals.md)
 2. [__Bayes Teoremi__](02-BayesTheorem.md)
 3. [__Frekansçı ve Bayesci Yaklaşımın Farkları__](03-FrequentistVsBayesian.md)
-4. [__Adım Adım Bayesci Çıkarım__](04-BayesianInference.md)
+4. [__Adım Adım Bayesci Çıkarım 1 - Önsel Dağılımlar__](04-BayesianInference1.md)
 
 # Motivasyon
 
