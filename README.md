@@ -38,5 +38,5 @@ Faydalı bir kaynak olması dileğiyle.
 
 # Diğer Kaynaklar
 
-- https://www.wikiwand.com/en/Replication_crisis
-- https://freakonometrics.hypotheses.org/19817
+- [Replication Crisis - Wikiwand](https://www.wikiwand.com/en/Replication_crisis)
+- [p-hacking, or cheating on a p-value](https://freakonometrics.hypotheses.org/19817)

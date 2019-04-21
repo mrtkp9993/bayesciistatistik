@@ -93,8 +93,8 @@ Simulasyon için yazılmış Python kodu kaynaklar kısmındaki 4. linkte buluna
 
 # Kaynaklar
 
-* https://github.com/mrtkp9993/Bayesian-Inference
-* https://www.youtube.com/watch?v=KhAUfqhLakw
-* http://mathworld.wolfram.com/BinomialDistribution.html
-* http://jakevdp.github.io/blog/2014/06/06/frequentism-and-bayesianism-2-when-results-differ/
-* https://www.nature.com/polopoly_fs/1.14700!/menu/main/topColumns/topLeftColumn/pdf/506150a.pdf
+* [Bayesci Çıkarıma Giriş](https://github.com/mrtkp9993/Bayesian-Inference)
+* [Frequentism and Bayesianism: What's the Big Deal?](https://www.youtube.com/watch?v=KhAUfqhLakw)
+* [Binomial Dist.](http://mathworld.wolfram.com/BinomialDistribution.html)
+* [Frequentism and Bayesianism](http://jakevdp.github.io/blog/2014/06/06/frequentism-and-bayesianism-2-when-results-differ/)
+* [STATISTICAL ERRORS - P values, the ‘gold standard’ of statistical validity, are not as reliable as many scientists assume.](https://www.nature.com/polopoly_fs/1.14700!/menu/main/topColumns/topLeftColumn/pdf/506150a.pdf)

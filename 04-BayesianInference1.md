@@ -20,6 +20,6 @@ Bunların dışında sık karşılaşılan başka bir terimde **eşlenik dağıl
 
 # Kaynaklar
 
-* https://github.com/fonnesbeck/bayes_tutorial_2019/blob/master/notebooks/2-Bayesian_Computation.ipynb
-* https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations
-* http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf
+* [Bayesian Computation](https://github.com/fonnesbeck/bayes_tutorial_2019/blob/master/notebooks/2-Bayesian_Computation.ipynb)
+* [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations)
+* [Prior distribution](http://www.stat.columbia.edu/~gelman/research/published/p039-_o.pdf)

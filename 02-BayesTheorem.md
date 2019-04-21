@@ -46,7 +46,7 @@ bulunur.
 
 # Kaynaklar
 
-- https://www.wikiwand.com/en/Bayes%27_theorem.
-- https://www.sis.uta.fi/tilasto/paattely2/BayesianAnalysis.pdf.
-- https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/MIT18_05S14_Reading20.pdf.
-- https://m-clark.github.io/bayesian-basics/a-hands-on-example.html.
+- [Bayes' theorem - Wikiwand](https://www.wikiwand.com/en/Bayes%27_theorem)
+- [Introduction to Bayesian Analysis, Arto Luoma](https://www.sis.uta.fi/tilasto/paattely2/BayesianAnalysis.pdf)
+- [Comparison of frequentist and Bayesian inference](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/MIT18_05S14_Reading20.pdf)
+- [Bayesian Basics](https://m-clark.github.io/bayesian-basics/a-hands-on-example.html)
