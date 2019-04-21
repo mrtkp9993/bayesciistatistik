@@ -1,5 +1,5 @@
 remote_theme: daviddarnes/alembic
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
 titles_from_headings:
   strip_title: true
