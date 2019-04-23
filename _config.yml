@@ -15,13 +15,6 @@ titles_from_headings:
   strip_title: true
 navigation_footer:
   Murat Koptur: https://muratkoptur.com
-social_links:
+contact:
   LinkedIn: https://www.linkedin.com/in/muratkoptur
   Facebook: https://www.facebook.com/muratkoptur
-  GitHub: https://github.com/mrtkp9993
-sharing_links:
-  Twitter: "#0d94e7"
-  facebook: "#3B5998"
-  LinkedIn: "#0077B5"
-  Reddit: "#FF4500"
-  Hacker News: "#ff6600"
