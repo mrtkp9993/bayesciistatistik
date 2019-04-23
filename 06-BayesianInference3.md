@@ -60,7 +60,7 @@ ve aşağıdaki kriteri önermiştir:
 
 Akaike bilgi kriteri, doğrusal regresyon, genelleştirilmiş doğrusal modeller, otoregresif modeller için uygun olsa da, derin sinir ağlar, mixture modeller için uygun değildir.
 
-## Watanabe–Akaike information criterion
+### Watanabe–Akaike Bilgi Kriteri (WAIC)
 
 Akaike bilgi kriterinin singüler istatistiksel modeller için genelleştirilmiş halidir ve Akaike bilgi kriterinin Bayesci versiyonudur. 
 
