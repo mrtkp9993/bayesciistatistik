@@ -34,7 +34,22 @@ ile hesaplayabiliriz. Integralin ![0520](imgs/05_20.svg) güven aralığı ise !
 
 Böylece en basit Monte Carlo integrasyonunu gördük. Importance sampling, Gibbs sampling, Hamiltonian Monte Carlo (HMC) gibi daha komplike ve modern yöntemler de mevcuttur. 
 
+## Markov Chain Monte Carlo (MCMC)
+
+MCMC algoritmaları hakkında kısaca bilgi verelim. MCMC algoritmasının **temel amacı**, durağan dağılımı (stationary distribution) hedef dağılım olan bir Markov zinciri tasarlamaya dayanır. 
+
+Bir **Markov zinciri**, stokastik süreçlerin özel bir tipidir. Bir **stokastik süreç**, ![0523](imgs/05_23.svg) çoğunlukla zamanı göstermek üzere, 
+
+![0524](imgs/05_24.svg)
+
+şeklinde tanımlanan, rassal değişkenlerin sıralı bir koleksiyonudur. ![0525](imgs/05_25.svg) değerini, ![0526](imgs/05_26.svg) durumunun ![0523](imgs/05_23.svg) anındaki değeri olarak düşünürsek ve her bir durum için 
+
+![0527](imgs/05_27.svg)
+
+koşulunu koyarsak, stokastik süreç **Markov zinciri** olarak adlandırılır. Yani, gelecekteki durum, sadece şu anki durumdan etkilenir, geçmiş durumlardan etkilenmez.
+
 # Kaynaklar
 
 * [Bayesian Inference Lecture Notes 14](http://www.stat.cmu.edu/~larry/=stat705/Lecture14.pdf)
 * [Chapter 14 - Simulation](http://www.stat.cmu.edu/~larry/=stat700/MCMC.pdf)
+* [Monte Carlo Yöntemleri](http://people.sabanciuniv.edu/sinanyildirim/Matematik_koyu_sunum_Turkce_v3.pdf)
