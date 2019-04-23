@@ -1,7 +1,5 @@
 ---
 title: Temel Kavramlar
-layout: post
-aside: true
 ---
 
 **Olasılık**: Belirsizliğin ölçüsüdür. Her zaman ![0101](imgs/01_01.png) aralığında değer alır.  
