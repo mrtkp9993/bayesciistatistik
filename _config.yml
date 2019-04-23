@@ -2,6 +2,9 @@ remote_theme: daviddarnes/alembic
 plugins:
   - jekyll-seo-tag
 title: Bayesci İstatistiğe Giriş - Murat Koptur
+social_links:
+  - Facebook: https://www.facebook.com/muratkoptur
+  - LinkedIn: https://www.linkedin.com/in/muratkoptur/
 description: Bayesci istatistiğe giriş
 social:
   name: Murat Koptur
