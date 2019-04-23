@@ -5,7 +5,7 @@
 3. [__Frekansçı ve Bayesci Yaklaşımın Farkları__](03-FrequentistVsBayesian.md)
 4. [__Adım Adım Bayesci Çıkarım 1 - Önsel Dağılımlar__](04-BayesianInference1.md)
 5. [__Adım Adım Bayesci Çıkarım 2 - Sonsal Dağılımın Hesaplanması__](05-BayesianInference2.md)
-6. [__Adım Adım Bayesci Çıkarım 3 - Model için Tanı Testleri__](06-BayesianInference3.md)
+6. [__Adım Adım Bayesci Çıkarım 3 - Model için Tanı Testleri ve Modellerin Karşılaştırılması__](06-BayesianInference3.md)
 
 # Motivasyon
 

@@ -32,7 +32,7 @@ olur. Ayrıca ![0519](imgs/05_19.svg) ve ![0518](imgs/05_18.svg) olmak üzere st
 
 ile hesaplayabiliriz. Integralin ![0520](imgs/05_20.svg) güven aralığı ise ![0521](imgs/05_21.svg) ile hesaplanabilir.
 
-Böylece en basit Monte Carlo integrasyonunu gördük. Importance sampling, Gibbs sampling, Markov Chain Monte Carlo (MCMC), Hamiltonian Monte Carlo (HMC) gibi daha komplike ve modern yöntemler de mevcuttur. 
+Böylece en basit Monte Carlo integrasyonunu gördük. Importance sampling, Gibbs sampling, Hamiltonian Monte Carlo (HMC) gibi daha komplike ve modern yöntemler de mevcuttur. 
 
 # Kaynaklar
 
