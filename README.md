@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Bayesci İstatistiğe Giriş
 
 1. [__Temel Kavramlar__](01-Fundamentals.md)
