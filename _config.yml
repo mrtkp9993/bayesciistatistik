@@ -1,6 +1,7 @@
 remote_theme: daviddarnes/alembic
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 title: Bayesci İstatistiğe Giriş - Murat Koptur
 description: Bayesci istatistiğe giriş
 social:
