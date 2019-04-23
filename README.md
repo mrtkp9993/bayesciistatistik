@@ -6,6 +6,7 @@
 4. [__Adım Adım Bayesci Çıkarım 1 - Önsel Dağılımlar__](04-BayesianInference1.md)
 5. [__Adım Adım Bayesci Çıkarım 2 - Sonsal Dağılımın Hesaplanması__](05-BayesianInference2.md)
 6. [__Adım Adım Bayesci Çıkarım 3 - Model için Tanı Testleri ve Modellerin Karşılaştırılması__](06-BayesianInference3.md)
+7. [__Örnekler__](07-Examples.md)
 
 # Motivasyon
 
@@ -40,3 +41,4 @@ Faydalı bir kaynak olması dileğiyle.
 
 - [Replication Crisis - Wikiwand](https://www.wikiwand.com/en/Replication_crisis)
 - [p-hacking, or cheating on a p-value](https://freakonometrics.hypotheses.org/19817)
+- [Bayesian Methods for Modern Statistical Analysis](http://www.nuigalway.ie/cisc/documents/bayesianmethodsformodernstatanalysis.pdf)
