@@ -1,5 +1,5 @@
 #remote_theme: daviddarnes/alembic
-theme: jekyll-theme-minimal
+theme: jekyll-theme-dinky
 plugins:
   - jekyll-seo-tag
 title: Bayesci İstatistiğe Giriş - Murat Koptur
