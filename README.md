@@ -9,7 +9,7 @@
 
 # Motivasyon
 
-Son yıllarda kişisel bilgisayaların işlem güçlerinin artmasıyla, bir çok karmaşık hesaplama kolaylıkla herkes tarafından yapılabilir hale geldi. Uzun hesaplamalar gerektiren Derin Öğrenme (Deep Learning) modellerinin oluşturulması bile masaüstü bilgisayarlardaki ekran kartları (GPU) ile yapılabilir oldu. Elimizdeki işlem gücünün artması, frekanscı istastikte _p-hacking hilesinin_ daha fazla konuşulur olması, _replication crisis_ denilen, gerçekleştirilen çoğu bilimsel deneyin sonuçlarının tekrarlanabilir olmaması sorunları Bayesci istatistiği daha çok konuşulur hale getirdi.
+Son yıllarda kişisel bilgisayarların işlem güçlerinin artmasıyla, bir çok karmaşık hesaplama kolaylıkla herkes tarafından yapılabilir hale geldi. Uzun hesaplamalar gerektiren Derin Öğrenme (Deep Learning) modellerinin oluşturulması bile masaüstü bilgisayarlardaki ekran kartları (GPU) ile yapılabilir oldu. Elimizdeki işlem gücünün artması, frekanscı istatistikte _p-hacking hilesinin_ daha fazla konuşulur olması, _replication crisis_ denilen, gerçekleştirilen çoğu bilimsel deneyin sonuçlarının tekrarlanabilir olmaması sorunları Bayesci istatistiği daha çok konuşulur hale getirdi.
 
 Bu konuda Türkçe kaynak sıkıntısı bulunması nedeniyle de şimdiye kadar edindiğim bilgileri derleyip sunmaya karar verdim. 
 

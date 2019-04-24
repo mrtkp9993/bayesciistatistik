@@ -85,9 +85,9 @@ Bob'un 3 kere üst üste kazanma şansını hesaplayacağız.
 
 Frekansı ve Bayesci yaklaşımlar farklı sonuç verdi. Hangisinin doğru olduğuna nasıl karar vereceğiz?
 
-Monte Carlo simulasyonundan daha sonra detaylı olarak bahsedeceğim. Basitçe açıklamak gerekirse; yüksek sayıda rasgele oyun üretip, kaç tanesinde Bob'un kazanacağını sayacağız. 
+Monte Carlo simülasyonundan daha sonra detaylı olarak bahsedeceğim. Basitçe açıklamak gerekirse; yüksek sayıda rasgele oyun üretip, kaç tanesinde Bob'un kazanacağını sayacağız. 
 
-Simulasyon için yazılmış Python kodu kaynaklar kısmındaki 4. linkte bulunabilir. Simulasyon sonucuna bakarsak Bob'un kazanma olasılığının ```0.09``` olduğunu gözüyoruz. 
+Simülasyon için yazılmış Python kodu kaynaklar kısmındaki 4. linkte bulunabilir. Simülasyon sonucuna bakarsak Bob'un kazanma olasılığının ```0.09``` olduğunu gözüyoruz. 
 
 Örneğimizde frekanscı yaklaşım yanlış sonuç verdi, ancak bu frekanscı yaklaşımın yanlış olduğu anlamına gelmemektedir. Bu tip problemlerle uğraşmak için çeşitli frekanscı yöntemler mevcuttur, ancak Bayesci yaklaşım - Bayesci yaklaşımın daha zor olduğu düşünüldüğü halde - basit bir model ile daha doğru sonuç vermektedir.  
 
