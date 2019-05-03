@@ -8,7 +8,7 @@ _i_ öznitelik sayısı olmak üzere,
 
 ![0701](imgs/07_01.svg)
 
-Örnek [Stan](https://mc-stan.org/) modeli:
+Örnek [veriseti](https://archive.ics.uci.edu/ml/datasets/Vertebral+Column) ve [Stan](https://mc-stan.org/) modeli:
 
 ```stan
 data {
