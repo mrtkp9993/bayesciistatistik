@@ -6,7 +6,7 @@ title: Örnek Modeller
 
 ### Bağımlı örneklem t-Testi
 
-```y``` son gözlem ve ilk gözlem arasındaki fark olmak üzere,
+```y``` son gözlemler ve ilk gözlemler arasındaki farklar olmak üzere,
 
 ![0702](imgs/07_02.svg)
 
