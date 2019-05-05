@@ -8,7 +8,7 @@ _i_ öznitelik sayısı olmak üzere,
 
 ![0701](imgs/07_01.svg)
 
-Örnek [veriseti](https://archive.ics.uci.edu/ml/datasets/Vertebral+Column) ve [Stan](https://mc-stan.org/) modeli:
+Örnek [veriseti](https://archive.ics.uci.edu/ml/datasets/Vertebral+Column), [Stan](https://mc-stan.org/) modeli ve R kodu:
 
 ```stan
 data {
@@ -46,6 +46,63 @@ model {
   b_grd ~ student_t(nu,0,s);
   class_ ~ bernoulli_logit(inv_logit(a + b_pi * pi_ + b_pt * pt + b_lla * lla + b_ss * ss + b_pr * pr + b_grd * grd));
 }
+```
+
+```r
+library(rstan)
+
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+
+standardize = function (x) {
+  for(i in 1:length(colnames(x))) {
+    if(class(x[,i]) == "numeric" || class(x[,i]) == "integer") {
+      x[,i] <- as.vector(scale(x[,i])) 
+    }
+  }
+  x
+}
+
+data <- read.table("column_2C.dat")
+
+names(data)[1] <- "pelvic_incidence"
+names(data)[2] <- "pelvic_tilt"
+names(data)[3] <- "lumbar_lordosis_angle"
+names(data)[4] <- "sacral_slope"
+names(data)[5] <- "pelvic_radius"
+names(data)[6] <- "grade_of_spondylolisthesis"
+names(data)[7] <- "class"
+
+data <- standardize(data)
+
+data$class <- as.numeric(data$class)
+data$class[data$class == 1] <- 1 ## abnormal
+data$class[data$class == 2] <- 0 ## normal
+
+str(data)
+summary(data)
+
+data.list <- list(N=nrow(data),
+                  class_=data$class,
+                  pi_=data$pelvic_incidence,
+                  pt=data$pelvic_tilt,
+                  lla=data$lumbar_lordosis_angle,
+                  ss=data$sacral_slope,
+                  pr=data$pelvic_radius,
+                  grd=data$grade_of_spondylolisthesis)
+
+str(data.list)
+
+
+fit <- stan(file = "Untitled.stan", data = data.list, iter = 1000, chains = 4)
+
+print(fit)
+plot(fit)
+
+check_hmc_diagnostics(fit)
+summary(fit)
+traceplot(fit)
+stan_diag(fit)
 ```
 
 # Kaynaklar
