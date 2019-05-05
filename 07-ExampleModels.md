@@ -105,5 +105,6 @@ traceplot(fit)
 stan_diag(fit)
 ```
 
+
 # Kaynaklar
 * [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations)
