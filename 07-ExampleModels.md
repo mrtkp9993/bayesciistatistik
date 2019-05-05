@@ -2,6 +2,78 @@
 title: Örnek Modeller
 ---
 
+## t-Testi
+
+### Bağımlı örneklem t-Testi
+
+```y``` son gözlem ve ilk gözlem arasındaki fark olmak üzere,
+
+![0702](imgs/07_02.svg)
+
+Örnek [veriseti](https://dasl.datadescription.com/datafile/freshman-15/), Stan modeli ve R kodu:
+
+```stan
+data {
+  int<lower=0> N;
+  vector[N] diff;
+}
+
+transformed data {
+  real meanDiff;
+  real sdDiff;
+  real unifLo;
+  real unifHi;
+  real normalSigma;
+  real expLambda;
+  
+  meanDiff = mean(diff);
+  sdDiff = sd(diff);
+  unifLo = sdDiff / 1000;
+  unifHi = sdDiff * 1000;
+  normalSigma = sdDiff * 100;
+  expLambda = 1 / 29.0;
+}
+
+parameters {
+  real<lower=0> nuMinusOne;
+  real mu;
+  real<lower=0> sigma;
+}
+
+transformed parameters {
+  real<lower=0> nu;
+  nu = nuMinusOne + 1;
+}
+
+model {
+  sigma ~ uniform(unifLo, unifHi);
+  mu ~ normal(meanDiff, normalSigma);
+  nuMinusOne ~ exponential(expLambda);
+  diff ~ student_t(nu, mu, sigma);
+}
+```
+
+```r
+library(readr)
+library(rstan)
+# https://dasl.datadescription.com/datafile/freshman-15/
+freshman_15 <- read_delim("freshman-15.txt", 
+                          "\t", escape_double = FALSE, trim_ws = TRUE)
+
+data.list <- list(N=length(freshman_15$Initial.Weight),
+                  diff=freshman_15$Terminal.Weight-freshman_15$Initial.Weight)
+str(data.list)
+
+fit <- stan(file = "Untitled.stan", data = data.list, iter = 1000, chains = 4)
+print(fit)
+plot(fit)
+
+check_hmc_diagnostics(fit)
+summary(fit)
+traceplot(fit)
+stan_diag(fit)
+```
+
 ## Lojistik Regresyon
 
 _i_ öznitelik sayısı olmak üzere,
@@ -108,3 +180,4 @@ stan_diag(fit)
 
 # Kaynaklar
 * [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations)
+* [Doing Bayesian Data Analysis](https://www.elsevier.com/books/doing-bayesian-data-analysis/kruschke/978-0-12-405888-0)
