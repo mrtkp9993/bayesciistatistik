@@ -176,7 +176,7 @@ summary(fit)
 traceplot(fit)
 stan_diag(fit)
 ```
-
+Daha fazla örnek model için bu [link](https://github.com/mrtkp9993/Statistical-Modeling-Examples)'e bakılabilir.
 
 # Kaynaklar
 * [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations)
