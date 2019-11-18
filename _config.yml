@@ -12,7 +12,7 @@ social:
     - https://github.com/mrtkp9993
 webmaster_verifications:
   google: _58A-s2Bb2HRB74P5Hac84hQtEUWMQEjI37P6lnAYp8
-google_analytics: "UA-138447594-4"
+google_analytics: UA-138447594-4
 titles_from_headings:
   strip_title: true
 navigation_footer:
