@@ -1,4 +1,5 @@
 remote_theme: daviddarnes/alembic
+url: "https://mrtkp9993.github.io/bayesciistatistik/" 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
